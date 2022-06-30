@@ -23,9 +23,9 @@ mvn clean package
 
 ### Instructions
 
-*download GithubCli-0.0.1-SNAPSHOT.jar from [releases](https://github.com/pesishein/github-cli/releases)
+* download GithubCli-0.0.1-SNAPSHOT.jar from [releases](https://github.com/pesishein/github-cli/releases)
 
-*run downloads command:
+* run downloads command:
 
 ```sh
 java -jar <jarName>.jar --downloads -r <owner>/<repo> [-o <outputFilePath>]
@@ -34,7 +34,7 @@ e.g: java -jar GithubCli-0.0.1-SNAPSHOT.jar --downloads -r whitesource/log4j-det
 
 ```
 
-*run stats command:
+* run stats command:
 
 ```sh
 java -jar <jarName>.jar --stats -r <owner>/<repo> [-o <outputFilePath>]
