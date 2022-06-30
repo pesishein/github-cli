@@ -1,0 +1,12 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.metadata/
+bin/
+# Maven
+log/
+target/
+build/

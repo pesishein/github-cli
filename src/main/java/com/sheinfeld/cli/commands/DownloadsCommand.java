@@ -48,6 +48,7 @@ public class DownloadsCommand extends AbstractSubCommand {
 				return;
 			}
 		} catch (Exception e) {
+        	System.out.println("An error has occoured, see logs for details");
 			logger.error("Downloads command failed fetching data : ", e);
 			return;
 		}

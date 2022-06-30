@@ -75,7 +75,8 @@ public class StatsCommand extends AbstractSubCommand {
 			}
 
 		} catch (Exception e) {
-			logger.error("Failed fetching data : ", e);
+        	System.out.println("An error has occoured, see logs for details");
+			logger.error("Stats command failed fetching data : ", e);
 			return;
 		}
 	}

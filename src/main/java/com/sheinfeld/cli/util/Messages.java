@@ -19,6 +19,7 @@ public class Messages {
             properties.load(inputStream);
         } catch (IOException e) {
         	logger.error("Failed initializing messages file", e);
+        	System.out.println("An error has occoured, see logs for details");
             throw new ExceptionInInitializerError(e);
         }
     }
