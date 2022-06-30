@@ -10,9 +10,9 @@ The data is printed to console and saved as a report localy.
 
  
 ### Setup
-Java 8 is required.
-The program should be ran from CLI as jar.
-For packaging the code to a jar use maven with the following command:
+*Java 8 is required.
+*The program should be ran from CLI as jar.
+*For packaging the code to a jar use maven with the following command:
 ```sh
 mvn clean package
 
