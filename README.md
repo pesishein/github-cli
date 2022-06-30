@@ -7,7 +7,7 @@ Project implements a GitHub CLI to get information from the GitHub repository.
 The data is printed to console and saved as a report localy.
 
 ### Todos
- - Write Tests
+ - Write more tests
 
  
 ### Setup
