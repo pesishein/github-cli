@@ -23,7 +23,7 @@ mvn clean package
 
 ### Instructions
 
-*download GithubCli-0.0.1-SNAPSHOT.jar
+*download GithubCli-0.0.1-SNAPSHOT.jar from [releases](https://github.com/pesishein/github-cli/releases)
 
 *run downloads command:
 
