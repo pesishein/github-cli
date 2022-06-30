@@ -10,3 +10,4 @@
 2022-06-30 15:30:31,064 INFO c.s.c.c.StatsCommand [main] Downloads command - END
 2022-06-30 15:30:31,065 INFO c.s.c.GithubCliApplication [main] Github CLI - END with exit status = 0
 2022-06-30 15:48:53.555 INFO [main] [com.sheinfeld.cli.util.RestServices.callHttpGet(RestServices.java:27)] - Executing request GET https://api.github.com/repos/whitesource/log4j-detect-distribution/releases
+2022-06-30 15:56:09.112 INFO [main] [com.sheinfeld.cli.util.RestServices.callHttpGet(RestServices.java:27)] - Executing request GET http://api.github.com/repos/whitesource/log4j-detect-distribution/releases
