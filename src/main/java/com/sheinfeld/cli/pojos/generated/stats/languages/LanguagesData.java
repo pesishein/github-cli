@@ -3,7 +3,7 @@ package com.sheinfeld.cli.pojos.generated.stats.languages;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import javax.annotation.processing.Generated;
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -21,7 +21,6 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({
 
 })
-@Generated("jsonschema2pojo")
 public class LanguagesData {
 
     @JsonIgnore

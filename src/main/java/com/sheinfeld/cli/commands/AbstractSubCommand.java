@@ -46,7 +46,7 @@ public abstract class AbstractSubCommand implements Runnable {
 		try {
 			writer = new FileWriter(outputFile);
 			writer.write(text);
-			System.out.println("Data was written to file : " + outputFile.getPath());
+			System.out.println(System.lineSeparator() + "Data was written to file : " + outputFile.getPath());
 			logger.info("Data was written to file : " + outputFile.getPath());
 		} catch (IOException e) {
 			System.out.println("Failed writing to file : " + e.getMessage());
